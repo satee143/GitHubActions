@@ -11,6 +11,7 @@ jobs:
              pwd
    test:
       runs-on: ubuntu-22.04
+      needs: build
       steps:
         - name: test
           run: |
