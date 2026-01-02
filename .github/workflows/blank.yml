@@ -5,5 +5,8 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - name: hello
-          run: echo "This is first"
+          run: |
+             echo "This is first line"
+             echo "This is Second {{ pwd }}
+             
    
