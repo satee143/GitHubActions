@@ -9,5 +9,12 @@ jobs:
              echo "This is first line"
              echo "This is Second {{ pwd }}"
              pwd
+   test:
+      runs-on: ubuntu-24.07
+      steps:
+        - name: test
+          run: |
+             echo "This is test phase "
+             
              
    
