@@ -10,7 +10,7 @@ jobs:
              echo "This is Second {{ pwd }}"
              pwd
    test:
-      runs-on: ubuntu-24.07
+      runs-on: ubuntu-22.04
       steps:
         - name: test
           run: |
