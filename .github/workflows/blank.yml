@@ -7,6 +7,6 @@ jobs:
         - name: hello
           run: |
              echo "This is first line"
-             echo "This is Second {{ pwd }}
+             echo "This is Second {{ pwd }}"
              
    
