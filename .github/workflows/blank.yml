@@ -8,5 +8,5 @@ steps:
      run: |
         echo "The variable is {{ vars.username }}"
         echo "This is first line"
-          echo "This is Second {{ pwd }}"
+        echo "This is Second {{ pwd }}"
           pwd
