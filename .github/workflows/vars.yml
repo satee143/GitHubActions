@@ -1,1 +1,10 @@
-
+name: Hello World
+on: push
+jobs:
+   
+   test:
+      runs-on: ubuntu-22.04
+      needs: build
+      steps:
+         - name: test
+           run: echo "The variable is {{ vars.username }}"
