@@ -1,12 +1,12 @@
 name: Hello World
 on: push
 jobs:
-build:
-runs-on: ubuntu-latest
-steps:
-   - name: hello
-     run: |
-        echo "The variable is {{ vars.username }}"
-        echo "This is first line"
-        echo "This is Second {{ pwd }}"
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: hello
+        run: |
+          echo "The variable is ${{ vars.username }}"
+          echo "This is first line"
+            echo "This is Second"
           pwd
